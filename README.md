@@ -76,7 +76,7 @@ It's important that you use consistent formatting for loops, functions and condi
 **Bad Version::**
 
 ```php
-/* Examples of unconsistent Functions() */
+/* Examples of inconsistent Functions() */
 /*
  * 1) The arguments are not spaced between the parenthesis.
  * 2) Squiggly brackets ({}) are on the line below the function line.
@@ -90,7 +90,7 @@ public function myFunction($arg1, $arg2) {
 ```
 
 ```php
-/* Examples of unconsistent Loops() */
+/* Examples of inconsistent Loops() */
 /*
  * 1) The "key" and "var" are not spaced the same between the =>.
  * 2) Squiggly brackets ({}) are on the line below the function line.
