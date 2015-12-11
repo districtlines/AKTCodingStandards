@@ -22,7 +22,7 @@ These are coding habits you **should** avoid and erase from your memory.
 <?php echo /* GOOD! */
 ```
 
-><sup>†</sup> There are some occasions that this is exceptable. Those occasions are if you are simply echoing out a known variable like `<?= $var; ?>`. If you are doing more than that, you are abusing the feature. You will also need to know what your scripts are being coded for, older versions of PHP will not like the Short tag option and you will have problems with compatability.
+><sup>†</sup> There are some occasions that this is acceptable. Those occasions are if you are simply echoing out a known variable like `<?= $var; ?>`. If you are doing more than that, you are abusing the feature. You will also need to know what your scripts are being coded for, older versions of PHP will not like the Short tag option and you will have problems with compatability.
 
 ### <a name="" href="#">Bad Indenting</a>
 **Indenting** is very important in keeping your codespace clean and organized. If you use ***Coda*** turn on visible whitespace ``View > Show Invisible Characters``. This will help keep things organized.
@@ -71,7 +71,7 @@ public function myFunction( $arg1, $arg2, $arg3 = array() ) {
 ```
 
 ### <a name="" href="#">Inconsistent Code Formatting</a>
-It's important that you use consistent formatting for loops, functions and conditionals throughout the whole project. More consistency the easier the code will read later in the project. Below I list the exceptable formats we use and should abide by.
+It's important that you use consistent formatting for loops, functions and conditionals throughout the whole project. The more consistency there is the easier the code will read later in the project. Below I list the acceptable formats we use and should abide by.
 
 **Bad Version::**
 
@@ -170,7 +170,7 @@ $str = 'What nicely formated literal string';
 ```
 
 #### Literal Strings with apostrophes
-When a literal string contains apostrophes you should use quotations AKA "double quotes". The practice of escaping characters should be avoid. The code becomes cluttered and hard to follow when escaping characters.
+When a literal string contains apostrophes you should use quotations AKA "double quotes". The practice of escaping characters should be avoided. The code becomes cluttered and hard to follow when escaping characters.
 
 ```php
 $str = "Isn't this a nice looking string?";
@@ -212,7 +212,7 @@ $sql = 'SELECT `id`, `name`, `created` '
 ### <a name="" href="#">Arrays</a>
 
 #### Numerically Indexed Arrays
-Negative numbers are not permitted as indices. All indexed arrays may start with any non-negative number.
+Negative numbers are not permitted as indices. All indexed arrays must start with any non-negative number.
 
 When declaring an indexed array with the `array()` function, a trailing space must be added after each comma delimiter to improve readability.
 
@@ -244,7 +244,7 @@ $assocArr = array(
 ---
 
 #### <a name="" href="#">Function formatting</a>
-This is the perferred formatting for a function.
+This is the preferred formatting for a function.
 > ####Notice:
 >* The arguments are 1 space away from the opening and closing parenthesis.
 >* The curly braces start on the same line as the function then end indented the same as the beginning of the function.
@@ -256,7 +256,7 @@ public function myFunction( $arg1, $arg2 = array() ) {
 ```
 
 #### <a name="" href="#">Loop formatting</a>
-This is the perferred formatting for a loop.
+This is the preferred formatting for a loop.
 
 ```php
 for( $i = 0; $i <= 100; $i++ ) {
@@ -277,7 +277,7 @@ do {
 ```
 
 #### <a name="" href="#">Conditional formatting</a>
-This is the perferred formatting for a conditional.
+This is the preferred formatting for a conditional.
 
 ```php
 if( $var === true ) {
